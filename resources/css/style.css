@@ -9,3 +9,9 @@
 
     --color-blue-100: rgba(27, 255, 212, 1);
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
