@@ -2,4 +2,10 @@
 
 :root {
     --font-1: 'Arimo', sans-serif;
+
+    --color-white-100: rgba(255, 255, 255, 1);
+
+    --color-grey-100: rgba(128, 128, 128, 1);
+
+    --color-blue-100: rgba(27, 255, 212, 1);
 }
