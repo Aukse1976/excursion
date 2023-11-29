@@ -35,3 +35,16 @@
 .text-blue {
     color: var(--color-blue-100);
 }
+
+/*  
+* ! style rules for common classes
+*/
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
