@@ -93,3 +93,8 @@ p {
     align-self: center;
     justify-self: center;
 }
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
