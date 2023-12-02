@@ -98,3 +98,10 @@ p {
     max-width: 100%;
     height: auto;
 }
+/*  
+* ! style rules for footer
+*/
+
+.footer {
+    padding-top: 2rem;
+}
