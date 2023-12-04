@@ -126,9 +126,12 @@ footer {
 * ! style rules for footer
 */
 
-/*footer {
-    padding-bottom: 3rem;
+footer {
     padding-top: 3rem;
-}*/
+}
 
+@media screen and (max-width: 768px) {
+    font-size: 0.75rem;
+    
+}
 
