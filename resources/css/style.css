@@ -78,12 +78,14 @@ h2 {
 
 h3 {
     font-size: 1.4rem;
-    padding-bottom: 30px;
 }
 
 
-.sectionOne, .sectionTwo, .sectionThree {
- padding-top: 50px;
+.sectionOne, 
+.sectionTwo, 
+.sectionThree, 
+footer {
+ padding-top: 4rem;
 }
 
 .sectionOne video, .sectionTwo img, .sectionThree img {
@@ -99,10 +101,10 @@ h3 {
 * ! style rules for footer
 */
 
-footer {
+/*footer {
     padding-bottom: 3rem;
     padding-top: 3rem;
-}
+}*/
 
 /**
 !Style rules for media queries
