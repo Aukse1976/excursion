@@ -60,6 +60,7 @@
 
 body {
     background-color: black;
+    font-size: 16px;
 }
 
 h1, h2, h3, p, a {
@@ -68,20 +69,16 @@ h1, h2, h3, p, a {
 }
 
 h1 {
- font-size: 50px;
+ font-size: 3.2rem;
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 2.6rem;
 }
 
 h3 {
-    font-size: 21px;
+    font-size: 1.4rem;
     padding-bottom: 30px;
-}
-
-p {
-    font-size: 16px;
 }
 
 
@@ -102,6 +99,10 @@ p {
 * ! style rules for footer
 */
 
-.footer {
-    padding-top: 5rem;
+footer {
+    padding-top: 3rem;
 }
+
+/**
+!Style rules for media queries
+**/
