@@ -91,6 +91,7 @@ body {
 h1, h2, h3, p, a {
     font-family: var(--font-1);
     font-weight: 600;
+    
 }
 
 h1 {
@@ -102,14 +103,29 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+}
+p {
+    line-height: 1.5rem;
 }
 
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+       }
+       
+       h2 {
+           font-size: 2.2rem;
+       }
+       
+       h3 {
+           font-size: 1rem;
+}
+}
 
 .sectionOne, 
 .sectionTwo, 
-.sectionThree, 
-footer {
+.sectionThree {
  padding-top: 4rem;
 }
 
@@ -127,15 +143,14 @@ footer {
 */
 
 footer {
+    display: block;
     padding-top: 3rem;
 }
 
+
 @media only screen and (max-width: 768px) {
-    
     footer h3 {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
     }
-    
-    
 }
 
