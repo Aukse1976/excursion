@@ -88,7 +88,7 @@ body {
     color: var(--color-white-100);
 }
 
-h1, h2, h3, p, a {
+h1, h2, h3, a {
     font-family: var(--font-1);
     font-weight: 600;
     
@@ -107,6 +107,10 @@ h3 {
 }
 p {
     line-height: 1.5rem;
+}
+
+a {
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 768px) {
